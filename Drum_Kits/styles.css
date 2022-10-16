@@ -1,0 +1,93 @@
+body {
+  text-align: center;
+  background-image: url("images\\drum_kit.jpg");
+}
+
+h1 {
+  font-size: 5rem;
+  color: #3d1068;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 3px 0 #12cf41;
+}
+
+h3 {
+  font-size: 2rem;
+  color: #3d1068;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 3px 0 #12cf41;
+}
+
+.shadow {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: antiquewhite;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+
+.a {
+  background-image: url("images\\crash.png");
+  background-color: "red";
+}
+
+.s {
+  background-image: url("images\\kick.png");
+  background-color: "red";
+}
+
+.d {
+  background-image: url("images\\snare.png");
+  background-color: "red";
+}
+
+.f {
+  background-image: url("images\\tom1.png");
+  background-color: "red";
+}
+
+.j {
+  background-image: url("images\\tom2.png");
+  background-color: "red";
+}
+
+.k {
+  background-image: url("images\\tom3.png");
+  background-color: "red";
+}
+
+.l {
+  background-image: url("images\\tom4.png");
+  background-color: "red";
+}
+
+.set {
+  margin: 5% auto;
+}
+
+.pressed {
+  box-shadow: 4px 3px 4px 4px red;
+  opacity: 0.9;
+}
+
+
+
+.drum {
+  outline: none;
+  border: 10px solid #2da140;
+  font-size: 6rem;
+  font-family: 'Arvo', cursive;
+  font-weight: 900;
+  color: #ec700b;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 170px;
+  text-align: center;
+  margin: 10px;
+  background-color: rgb(247, 239, 239);
+}
